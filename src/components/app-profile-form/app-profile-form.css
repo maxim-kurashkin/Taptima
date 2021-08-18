@@ -1,0 +1,274 @@
+.profile{
+    margin-left: 21px;
+    display: flex;
+}
+.card{
+    margin-right: 25px;
+    width: 375px;
+    height: 249px;
+    background: #FFFFFF;
+    border: 1px solid rgba(63, 63, 68, 0.005);
+    box-shadow: 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 4px;
+}
+.card__wrapper{
+    margin: 0;
+    display: flex;
+    padding: 24px 24px 22px 24px;
+}
+.card__name{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.06px;
+    color: #212529;
+}
+.card__city{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #9EA0A5;
+}
+.card__time{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #9EA0A5;
+}
+.card__ava{
+    margin-left: 41px;
+    width: 140px;
+    height: 140px;
+}
+.card__wrbtn{
+    margin: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.card__btn{
+    width: 147px;
+    height: 40px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #425A70;
+    background-color: #FFFFFF;
+}
+.card__btn:hover{
+    color: #1665D8;
+}
+.form{
+    margin-top: 2px;
+    width: 910px;
+    height: 454px;
+    background: #FFFFFF;
+    border: 1px solid rgba(63, 63, 68, 0.005);
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 4px;
+}
+.form__header{
+    margin-bottom: 23px;
+    display: flex;
+    margin-top: 26px;
+    margin-left: 24px;
+    align-items: center;
+}
+.form__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #3A3B3F;
+}
+.form__descr{
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #66788A;
+}
+.from__wrapper{
+    margin-top: 33px;
+    margin-left: 24px;
+    margin-bottom: 24px;    
+    width: 680px;
+    height: 234px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__btn{
+    cursor: pointer;
+    margin-top: 26px;
+    margin-left: 24px;
+    width: 152px;
+    height: 40px;
+    background: #1665D8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form__second{
+    margin-top: 24px;
+    height: 414px;
+}
+.from__wrapper__second{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.form__right{
+    margin-left: 85px;
+}
+.subheader{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.form__btn__small{
+    color: #1665D8;
+    background: rgba(98, 2, 238, 0.0001);
+    border: 1px solid rgba(22, 101, 216, 0.1);
+    box-shadow: none;
+}
+
+@media(max-width: 1630px) {
+    .form{
+        width: 730px;
+    }
+}
+@media(max-width: 1440px) {
+    .profile{
+        flex-direction: column;
+        justify-content: center;
+        /* по центру не оч, но если что вместо jc писать ai */
+    }
+    .card{
+        margin-bottom: 21px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .form{
+        width: 717px;
+    }
+    .from__wrapper {    
+        margin-left: 18px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .form {
+        width: 677px;
+    }
+    .from__wrapper {
+        width: 659px;
+    }
+    .form__second{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .profile{
+        margin-left: 0;
+        align-items: center;
+    }
+    .form{
+        width: 545px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .from__wrapper{
+        width: 525px;
+
+    }
+}
+@media(max-width: 575px) {
+    .card{
+        width: 310px;
+        height: 195px;
+    }
+    .card__wrapper{
+        padding-bottom: 12px;
+    }
+    .card__ava {
+        margin-left: 25px;
+        width: 100px;
+        height: 100px;
+    }
+    .card__name{
+        font-size: 22px;
+    }
+    .card__wrbtn{
+        margin: 5px 24px;
+    }
+    .card__btn {
+        width: 110px;
+        height: 20px;
+        font-size: 7px;
+    }
+    .form{
+        width: 300px;
+        height: 700px;
+    }
+    .from__wrapper {
+        margin-left: 25px;
+        width: 275px;
+        height: 465px;
+    }
+    .form__header{
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .form__descr{
+        font-size: 11px;
+    }
+    .form__input{
+        margin-bottom: 24px;
+    }
+    .form__input:nth-child(2) {
+        margin-bottom: 14px;
+    }
+    .form__input:nth-child(1) {
+        margin-bottom: 14px;
+    }
+    .form__btn {
+        margin-left: 60px;
+        width: 180px;
+    }
+    .form__right{
+        margin-left: 0;
+    }
+    .form__second{
+        height: 670px;
+        
+    }
+}

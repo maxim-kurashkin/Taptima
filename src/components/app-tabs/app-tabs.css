@@ -1,0 +1,37 @@
+.tabs{
+    height: 58px;
+    width: 100%;
+    border-bottom: 1px solid #E4E7EB;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: flex-end;
+}
+.tabs__items{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 24px;
+}
+.tabs__item{
+    height: 39px;
+    margin-right: 24px;
+    display: block; 
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.05px;
+    color: #3A3B3F;
+    background-color: #F9FAFB;
+    padding-bottom: 3px;
+}
+.tabs__item:focus{
+    padding-bottom: 0;
+    border-bottom: 3px solid #1665D8;
+}
+
+@media(max-width: 992px) {
+    .tabs {
+        justify-content: center;
+    }
+}

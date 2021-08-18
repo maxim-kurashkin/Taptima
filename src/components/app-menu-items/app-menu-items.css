@@ -1,0 +1,27 @@
+.container__menu{
+    margin-top: 24px;
+    height: 316px;
+    width: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu__item{
+    cursor: pointer;
+    width: 221px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+
+}
+.menu__label{
+    cursor: pointer;
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #66788A;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: #F9FAFB;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto', sans-serif;
+}
